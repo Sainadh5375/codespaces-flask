@@ -33,5 +33,4 @@ def htop():
     return response
 
 if __name__ == '__main__':
-    # Run the app on a public port
     app.run(host='0.0.0.0', port=5000)
